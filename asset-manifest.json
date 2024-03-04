@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Horae/static/css/main.60b3796b.css",
+    "main.js": "/Horae/static/js/main.6d062999.js",
+    "static/js/453.d4e52e8b.chunk.js": "/Horae/static/js/453.d4e52e8b.chunk.js",
+    "static/media/Horae.jpg": "/Horae/static/media/Horae.350eda3e77b9dd5f6c63.jpg",
+    "static/media/thunderstorm-day.jpg": "/Horae/static/media/thunderstorm-day.1dfa69b8e37261e4d49e.jpg",
+    "static/media/rain-night.jpg": "/Horae/static/media/rain-night.1ef767a396710d70bd0d.jpg",
+    "static/media/rain-day.jpg": "/Horae/static/media/rain-day.f9eb8020d14fda0460c0.jpg",
+    "static/media/Cinzel-VariableFont_wght.ttf": "/Horae/static/media/Cinzel-VariableFont_wght.2d087b545bf495f3d86d.ttf",
+    "static/media/snow-night.jpg": "/Horae/static/media/snow-night.96a41f93c4c24db54ee9.jpg",
+    "static/media/thunderstorm-night.jpg": "/Horae/static/media/thunderstorm-night.f29c870c3a17329bb90a.jpg",
+    "static/media/cloud-night.jpg": "/Horae/static/media/cloud-night.36478e6599af3ee7e735.jpg",
+    "static/media/snow-day.jpg": "/Horae/static/media/snow-day.83805ae7e885c918b16d.jpg",
+    "static/media/cloud-day.jpg": "/Horae/static/media/cloud-day.96442671ae5734a8da19.jpg",
+    "static/media/mist-night.jpeg": "/Horae/static/media/mist-night.086386017461233cbb2d.jpeg",
+    "static/media/clear-day.jpg": "/Horae/static/media/clear-day.81d4b0aff1c242112f4b.jpg",
+    "static/media/FlagUK.png": "/Horae/static/media/FlagUK.6bc54c63e3a04bfb81c8.png",
+    "static/media/mist-day.jpg": "/Horae/static/media/mist-day.2932c9d0891816b6f205.jpg",
+    "static/media/clear-night.webp": "/Horae/static/media/clear-night.8c21af83feba179f79f8.webp",
+    "index.html": "/Horae/index.html",
+    "main.60b3796b.css.map": "/Horae/static/css/main.60b3796b.css.map",
+    "main.6d062999.js.map": "/Horae/static/js/main.6d062999.js.map",
+    "453.d4e52e8b.chunk.js.map": "/Horae/static/js/453.d4e52e8b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60b3796b.css",
+    "static/js/main.6d062999.js"
+  ]
+}
