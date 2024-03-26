@@ -1,0 +1,409 @@
+.weather_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(121, 121, 166, 0.157);
+  width: 50%;
+  height: fit-content;
+
+  @media screen and (max-width: 900px) {
+    width: 60%;
+  }
+
+  @media screen and (max-width: 900px) {
+    width: 80%;
+  }
+
+  @media screen and (max-width: 500px) {
+    width: 96%;
+  }
+
+  .closing-box {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    .btn-closing {
+      margin: 10px 10px 0 0;
+      width: 2rem;
+      color: white;
+      font-weight: 900;
+      background-color: rgba(240, 255, 255, 0.014);
+      border: 2px solid white;
+      cursor: pointer;
+      text-align: center;
+
+      &:hover {
+        background-color: white;
+        color: rgb(238, 174, 202);
+        border: 2px solid rgba(247, 216, 229, 0.259);
+      }
+    }
+  }
+
+  .weather-today-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    .cityName-box {
+      p {
+        font-style: italic;
+        margin: 10px 4px 0 0;
+      }
+      h1 {
+        font-size: 28px;
+        margin: 8px 0 4px 0;
+
+        @media screen and (max-width: 600px) {
+          font-size: 20px;
+        }
+
+        span {
+          font-weight: 500;
+          color: gray;
+          margin-left: 4px;
+        }
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+
+    .weather-now {
+      display: flex;
+      width: 70%;
+      height: auto;
+      align-items: center;
+      justify-content: center;
+      margin: 20px;
+      @media screen and (max-width: 600px) {
+        width: 96%;
+      }
+
+      .temp-now {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        width: 100%;
+        color: white;
+        font-weight: 900;
+        background-color: rgba(0, 0, 0, 0.236);
+        padding: 30px;
+
+        @media screen and (max-width: 600px) {
+          padding: 20px;
+        }
+
+        div {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin: 10px;
+          width: 100%;
+
+          img {
+            width: 70%;
+          }
+
+          h1 {
+            margin: 0;
+            font-size: 4em;
+
+            @media screen and (max-width: 600px) {
+              font-size: 3em;
+            }
+          }
+        }
+
+        .info-weather {
+          display: flex;
+          flex-direction: column;
+          display: flex;
+          align-items: center;
+          width: 100%;
+
+          @media screen and (max-width: 600px) {
+            width: 100%;
+            align-items: flex-start;
+            text-align: center;
+          }
+
+          p {
+            margin: 0 0 4px 0;
+            width: 100%;
+
+            @media screen and (max-width: 600px) {
+              font-size: 14px;
+            }
+          }
+
+          .temp-box {
+            display: flex;
+            flex-direction: column;
+
+            span {
+              margin: 6px;
+
+              @media screen and (max-width: 600px) {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .weatherByHours-box {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    width: 55%;
+    overflow-x: scroll;
+
+    @media screen and (max-width: 600px) {
+      width: 70%;
+    }
+
+    p {
+      margin: 4px 0 4px 0;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .dateHours {
+      font-weight: 200;
+      font-size: 12px;
+    }
+
+    img {
+      width: 60px;
+    }
+  }
+
+  .sunset-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 80%;
+
+    @media screen and (max-width: 600px) {
+      margin: 10px 0 4px 0;
+    }
+
+    .sunset-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 10px 5px 5px 5px;
+      width: 35%;
+      background-color: rgba(68, 66, 66, 0.155);
+      padding: 5px;
+
+      @media screen and (max-width: 600px) {
+        width: 80%;
+      }
+
+      span {
+        p {
+          margin: 0;
+          font-weight: 700;
+        }
+
+        @media screen and (max-width: 600px) {
+          font-size: 14px;
+        }
+      }
+      h2 {
+        margin: 6px 0;
+        font-weight: 400;
+
+        @media screen and (max-width: 600px) {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .detail-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+    @media screen and (max-width: 600px) {
+      width: 100%;
+    }
+
+    .detail-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 6px 0 10px 0;
+      width: 100%;
+
+      @media screen and (max-width: 600px) {
+        margin: 4px 0 6px 0;
+      }
+
+      .detail {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        text-align: start;
+        margin: 4px 5px 0 2px;
+        width: 60%;
+        height: 160px;
+        background-color: rgba(128, 128, 128, 0.356);
+        padding: 16px;
+
+        @media screen and (max-width: 600px) {
+          height: 130px;
+          width: 50%;
+          margin: 0px 2px 0 2px;
+        }
+
+        p {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: flex-start;
+          margin: 0;
+          width: 100%;
+          font-size: 16px;
+          font-weight: 700;
+
+          @media screen and (max-width: 600px) {
+            font-size: 14px;
+          }
+
+          span {
+            margin-right: 2px;
+            margin-left: 4px;
+          }
+        }
+        h2 {
+          margin-left: 10px;
+          font-weight: 500;
+          @media screen and (max-width: 600px) {
+            font-size: 14px;
+          }
+        }
+
+        .direction {
+          display: flex;
+          align-items: center;
+          margin-left: 10px;
+          width: 100%;
+
+          @media screen and (max-width: 600px) {
+            margin-left: 1px;
+          }
+
+          p {
+            margin: 0;
+            width: 100%;
+            font-size: 16px;
+
+            @media screen and (max-width: 600px) {
+              font-size: 12px;
+            }
+          }
+        }
+
+        div {
+          margin-left: 10px;
+          p {
+            font-weight: 400;
+            @media screen and (max-width: 600px) {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.clear-day {
+  background-image: url("../../styles/img/clear-day.jpg");
+  background-size: cover;
+}
+
+.clear-night {
+  background-image: url("../../styles/img/clear-night.webp");
+  background-size: cover;
+}
+
+.rain-day {
+  background-image: url("../../styles/img/rain-day.jpg");
+  background-size: cover;
+}
+
+.rain-night {
+  background-image: url("../../styles/img/rain-night.jpg");
+  background-size: cover;
+}
+
+.snow-day {
+  background-image: url("../../styles/img/snow-day.jpg");
+  background-size: cover;
+}
+
+.snow-night {
+  background-image: url("../../styles/img/snow-night.jpg");
+  background-size: cover;
+}
+
+.thunderstorm-day {
+  background-image: url("../../styles/img/thunderstorm-day.jpg");
+  background-size: cover;
+}
+
+.thunderstorm-night {
+  background-image: url("../../styles/img/thunderstorm-night.jpg");
+  background-size: cover;
+}
+
+.mist-day {
+  background-image: url("../../styles/img/mist-day.jpg");
+  background-size: cover;
+}
+
+.mist-night {
+  background-image: url("../../styles/img/mist-night.jpeg");
+  background-size: cover;
+}
+
+.cloud-day {
+  background-image: url("../../styles/img/cloud-day.jpg");
+  background-size: cover;
+}
+
+.cloud-night {
+  background-image: url("../../styles/img/cloud-night.jpg");
+  background-size: cover;
+}
+
+.clear-day,
+.clear-night,
+.rain-day,
+.rain-night,
+.snow-day,
+.snow-night,
+.thunderstorm-day,
+.thunderstorm-night,
+.mist-day,
+.mist-night,
+.cloud-day,
+.cloud-night {
+  opacity: 0.8;
+}
