@@ -1,4 +1,5 @@
-import { Dispatch, SetStateAction } from "react";
+import { Dispatch, SetStateAction, useState, useEffect } from "react";
+import moment from "moment-timezone";
 import {
   forecastType,
   dataWeatherTitleItem,
@@ -8,7 +9,6 @@ import {
   dataFeelDetailItem,
 } from "../../types";
 import {
-  getSunTime,
   Dates,
   DayHours,
   getDayHours,
@@ -41,7 +41,6 @@ import { TiEyeOutline } from "react-icons/ti";
 
 type Props = {
   data: forecastType;
-
   setForecast: Dispatch<SetStateAction<forecastType | null>>;
   language: boolean;
   dataWeatherTitle: dataWeatherTitleItem;
@@ -66,6 +65,22 @@ export default function Forecast({
   language,
 }: Props): JSX.Element {
   const today = data.list[0];
+  const [sunrise, setSunrise] = useState("");
+  const [sunset, setSunset] = useState("");
+
+  //Adjusts a given timestamp for the specified timezone offset
+  useEffect(() => {
+    const sunriseTime = adjustTimeForTimezone(data.sunrise, data.timezone);
+    const sunsetTime = adjustTimeForTimezone(data.sunset, data.timezone);
+    setSunrise(sunriseTime.format("HH:mm"));
+    setSunset(sunsetTime.format("HH:mm"));
+  }, [data]);
+
+  // Adjusts a given date and time string for the specified timezone offset
+  const adjustTimeForTimezone = (time: number, timezoneOffset: number) => {
+    const timeInTargetZone = moment.unix(time).utcOffset(timezoneOffset / 60);
+    return timeInTargetZone;
+  };
 
   // from the value of the icon of the data the function returns an image
 
@@ -236,6 +251,7 @@ export default function Forecast({
       <section className="weather-today-box">
         <div className="cityName-box">
           <p>{Dates(today.dt_txt)}</p>
+
           <h1>
             {data.name}
             <span>{data.country}</span>
@@ -285,7 +301,7 @@ export default function Forecast({
                 : dataWeatherTitle.sunrise.toUpperCase()}
             </p>
           </span>
-          <h2>{getSunTime(data.sunrise)}</h2>
+          <h2>{sunrise}</h2>
         </div>
         <div className="sunset-box">
           <span>
@@ -297,7 +313,7 @@ export default function Forecast({
                 : dataWeatherTitle.sunset.toUpperCase()}
             </p>
           </span>
-          <h2>{getSunTime(data.sunset)}</h2>
+          <h2>{sunset}</h2>
         </div>
       </section>
       <section className="detail-container">

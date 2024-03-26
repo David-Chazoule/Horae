@@ -25,8 +25,6 @@ function App() {
     language,
   } = useForeCast();
 
-  
-
   return (
     <div className="App">
       {forecast ? (
@@ -57,4 +55,3 @@ function App() {
 }
 
 export default App;
-

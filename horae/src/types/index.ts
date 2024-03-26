@@ -3,6 +3,7 @@ export type optionType = {
   country: string;
   lat: number;
   lon: number;
+  
 };
 
 export type forecastType = {
@@ -10,6 +11,7 @@ export type forecastType = {
   country: string;
   lat: number;
   lon: number;
+  timezone:number;
   sunrise: number;
   sunset: number;
   list: [
