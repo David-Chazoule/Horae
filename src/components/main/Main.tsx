@@ -6,7 +6,7 @@ import horae from "../../styles/img/Horae.jpg";
 
 type Props = {
   term: string;
-  options: [];
+  options: optionType[];
   onInputChange: (e: ChangeEvent<HTMLInputElement>) => void;
   onOptionSelect: (option: optionType) => void;
   onSubmit: () => void;
@@ -64,13 +64,19 @@ export default function Main({
             onChange={onInputChange}
           />
           <ul>
-            {options.map((option: optionType, index: number) => (
-              <li key={option.name + "-" + index}>
-                <button className="" onClick={() => onOptionSelect(option)}>
-                  {option.name} {option.country}
-                </button>
+            {Array.isArray(options) ? (
+              options.map((option: optionType, index: number) => (
+                <li key={option.name + "-" + index}>
+                  <button className="" onClick={() => onOptionSelect(option)}>
+                    {option.name} {option.country}
+                  </button>
+                </li>
+              ))
+            ) : (
+              <li>
+                {language ? "Aucune option disponible" : "No options available"}
               </li>
-            ))}
+            )}
           </ul>
           <button className="btn-research" onClick={onSubmit}>
             {language ? dataMain.mainResearchFr : dataMain.mainResearchEn}
