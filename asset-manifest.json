@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Horae/static/css/main.60b3796b.css",
-    "main.js": "/Horae/static/js/main.365f1c05.js",
+    "main.js": "/Horae/static/js/main.f564b5f9.js",
     "static/js/453.d4e52e8b.chunk.js": "/Horae/static/js/453.d4e52e8b.chunk.js",
     "static/media/Horae.jpg": "/Horae/static/media/Horae.350eda3e77b9dd5f6c63.jpg",
     "static/media/thunderstorm-day.jpg": "/Horae/static/media/thunderstorm-day.1dfa69b8e37261e4d49e.jpg",
@@ -20,11 +20,11 @@
     "static/media/clear-night.webp": "/Horae/static/media/clear-night.8c21af83feba179f79f8.webp",
     "index.html": "/Horae/index.html",
     "main.60b3796b.css.map": "/Horae/static/css/main.60b3796b.css.map",
-    "main.365f1c05.js.map": "/Horae/static/js/main.365f1c05.js.map",
+    "main.f564b5f9.js.map": "/Horae/static/js/main.f564b5f9.js.map",
     "453.d4e52e8b.chunk.js.map": "/Horae/static/js/453.d4e52e8b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.60b3796b.css",
-    "static/js/main.365f1c05.js"
+    "static/js/main.f564b5f9.js"
   ]
 }
