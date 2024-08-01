@@ -19,9 +19,11 @@ The front-end of this application is developed with the following technologies:
 Follow these steps to set up and run the application locally:
 
 1. **Install dependencies:**
-   ```bash
-   npm install
-Start the application:
+```bash
+npm install
+```
+
+2. **Start the application:**
 
 ```bash
 npm start
