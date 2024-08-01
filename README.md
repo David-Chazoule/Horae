@@ -40,3 +40,20 @@ plaintext
 
 ```bash
 REACT_APP_API_KEY=your_api_key_from_openweathermap.org
+```
+## Project Structure
+
+Here's an overview of the project structure:
+
+  - **src/**: Contains the source code for the application.
+  - **components/**: Reusable React components.
+  - **Helpers/**: Contains various utility functions used for processing and formatting weather data in the application.
+  - **Hooks/**: Contains custom React hooks for managing state and API interactions.
+  - **Types/**: Defines TypeScript types and interfaces used throughout the application.
+  - **context/**: Context providers for managing application state.
+  - **styles/**: Sass files for styling.
+  - **utils/**: Utility functions and calculation services.
+
+## How It Works
+
+1. Enter your location: Input the city for which you want to know the weather.
