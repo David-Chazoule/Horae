@@ -2,7 +2,7 @@
 
 <img src="https://media.discordapp.net/attachments/1268608877755236446/1268615870712643654/horae1.PNG?ex=66ad1219&is=66abc099&hm=fad56488aaa4751e980ca82e2480a4244316f7c1631501bf98b3e3d80244f30b&=&format=webp&quality=lossless&width=1419&height=676" alt="Home page screen"  style="width:600px; height:auto;">
 
-<img src="https://media.discordapp.net/attachments/1268608877755236446/1268622394394939462/horae2.PNG?ex=66ad182c&is=66abc6ac&hm=869384577faaa8cd43d426ebebefe1a51cd6812417893be2ba9476738c8fc70f&=&format=webp&quality=lossless&width=1411&height=676" alt="exemple enter screen"  style="width:300px; height:auto;"><img src="https://media.discordapp.net/attachments/1268608877755236446/1268622393933435042/horae3.PNG?ex=66ad182c&is=66abc6ac&hm=4e8531fdb643a1fbc8d81ae417bd5fa0b1e2fbeedf6d0ff17aac5c80970dc37d&=&format=webp&quality=lossless&width=1397&height=676" alt="weather result screen"  style="width:300px; height:auto;">
+<img src="https://media.discordapp.net/attachments/1268608877755236446/1268622394394939462/horae2.PNG?ex=66ad182c&is=66abc6ac&hm=869384577faaa8cd43d426ebebefe1a51cd6812417893be2ba9476738c8fc70f&=&format=webp&quality=lossless&width=1411&height=676" alt="exemple enter screen"  style="width:300px; height:auto;"> <img src="https://media.discordapp.net/attachments/1268608877755236446/1268622393933435042/horae3.PNG?ex=66ad182c&is=66abc6ac&hm=4e8531fdb643a1fbc8d81ae417bd5fa0b1e2fbeedf6d0ff17aac5c80970dc37d&=&format=webp&quality=lossless&width=1397&height=676" alt="weather result screen"  style="width:300px; height:auto;">
 
 ## Overview
 
