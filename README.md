@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e1e54c00-24bc-4f20-ae5d-f4f68effb272)# HORAE
+# HORAE
 
 <img src="https://media.discordapp.net/attachments/1268608877755236446/1268615870712643654/horae1.PNG?ex=66ad1219&is=66abc099&hm=fad56488aaa4751e980ca82e2480a4244316f7c1631501bf98b3e3d80244f30b&=&format=webp&quality=lossless&width=1419&height=676" alt="Home page screen"  style="width:600px; height:auto;">
 
